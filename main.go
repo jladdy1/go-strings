@@ -5,8 +5,11 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hello strings /n")
+	fmt.Printf("Hello strings \n")
 
-	isUnique := IsUnique("abcdefghii")
-	fmt.Printf("IsUnique %v", isUnique)
+	isUnique := IsUnique("abcdefghi")
+	fmt.Printf("IsUnique %v \n", isUnique)
+
+	isPermutation := IsPermutation("dog", "god")
+	fmt.Printf("IsPermutation (true) %v \n", isPermutation)
 }
